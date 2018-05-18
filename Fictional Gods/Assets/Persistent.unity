@@ -178,6 +178,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &156209477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 156209479}
+  - component: {fileID: 156209478}
+  m_Layer: 0
+  m_Name: SpriteController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &156209478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 156209477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb29aff428b05d4abe7a3364a5f2b21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GodPortaits:
+  - {fileID: 21300000, guid: 9902d1ea422f37c43a6a2622681e7c57, type: 3}
+--- !u!4 &156209479
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 156209477}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1609.0408, y: 698.3021, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &465892218
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,17 +248,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allFictionalGods:
-  - name: FEIOJ
-    godOf: Moving Fast
+  - name: GRUNDIK
+    godOf: Moving forward
     Fiction:
-    - The world is a small place really
+    - GRUNKIK was the first mortal being to ascend to god status. A lizard born malnourished,
+      unable to find a job in his village. GRUNKIK Migrated across the flat desert.
+      for 60 years he walked in a perfectly straight line. He never faltered.   FYUNLLK,
+      god of infinity,  had seen GRUNDIK's entire journey, and knowing that his own
+      body was to destroyed that summer, blessed GRUNKIK so that his legacy could
+      be passed on.   After 60 years of moving, GRUNKIK tripped over a stone. Breaking
+      his ankle and damning humanity.
     - 
     - 
     GameRules:
-    - Create a world
-    - Love
-    - Peace
-    - Cool
+    - ' At the start of every turn, Add, move, or remove a single rock from the board.'
+    - 
+    - 
+    - 
   levelID: 0
   backUp: []
 --- !u!4 &465892220
